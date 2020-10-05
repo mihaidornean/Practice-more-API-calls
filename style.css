@@ -1,0 +1,32 @@
+    body {
+        margin-bottom: 30px;
+        background-color: rgb(207, 228, 221);
+    }
+
+.chucknorris-img {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center; 
+}
+.hide {
+    display: none;
+}
+.author-link {
+    list-style: none;
+}
+.author-link:hover {
+    background-color: #00009c;
+    color: #fff;
+    cursor: grab;
+}
+.nav-item:hover {
+    background-color: rgba(192, 253, 248, 0.336);
+    border: 1px solid #000046;  
+}
+.art-object {
+    background-color: rgba(93, 122, 119, 0.5);
+}
+.art-image {
+    max-width: 70%;
+}
